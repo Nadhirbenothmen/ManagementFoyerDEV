@@ -43,10 +43,6 @@ graph TB
 - **JUnit & Mockito** - Tests unitaires
 - **MySQL** - Base de données
 
-### Frontend
-- **Angular** - Framework frontend
-- **TypeScript** - Langage de programmation
-- **Material Design** - Framework UI
 
 ### DevOps
 - **Jenkins** - Automatisation CI/CD
@@ -62,13 +58,10 @@ graph TB
 
 ## ⚙️ Prérequis
 - JDK 17
-- Node.js 14+
 - Docker
-- Kubernetes cluster
 - Jenkins
 - Maven
 - Git
-- angular 15
 
 ## 📦 Pipeline DevOps
 
@@ -92,21 +85,6 @@ Notre pipeline Jenkins comprend les étapes suivantes :
    - Tests de smoke
    - Validation des services
 
-## 🌐 Déploiement
-
-### Kubernetes
-```yaml
-# Exemple de déploiement
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: app-deployment
-spec:
-  replicas: 3
-  selector:
-    matchLabels:
-      app: myapp
-```
 
 ## 📊 Surveillance
 
